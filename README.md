@@ -12,7 +12,7 @@ This project assumes you already followed Raspberry Pi OS setup from [this](http
 To install required dependencies, run the following command on your Raspberry Pi:
 
 ```shell
-sudo apt-get install openjdk-17-jdk-headless maven libpigpio1
+sudo apt-get install openjdk-17-jdk-headless maven libpigpio1 -y
 ```
 
 ## Enabling remote development
