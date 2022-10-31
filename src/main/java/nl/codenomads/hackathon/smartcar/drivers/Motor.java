@@ -65,4 +65,11 @@ public class Motor {
         }
     }
 
+    public void setAllWheels(final int rightFront, final int leftFront, final int rightRear, final int leftRear) {
+        rightFrontWheel(rightFront);
+        leftFrontWheel(leftFront);
+        rightRearWheel(rightRear);
+        leftRearWheel(leftRear);
+    }
+
 }
